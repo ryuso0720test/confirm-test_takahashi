@@ -1,0 +1,126 @@
+.contact-form__heading h2 {
+    text-align: center;
+    color: #8B7969;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+    color: #8B7969;
+}
+
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    width: 500px;
+    display: flex;
+}
+
+.form__group-content {
+    width: 100%;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: red;
+    line-height: 15px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--text select,
+.form__input--textarea textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* border-radius: 3px; */
+    background-color: #F4F4F4;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 170px;
+}
+
+.form__button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 16%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #82756A;
+    color:#fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-name input {
+    width: 290px;
+}
+
+
+
+.form__input--radio {
+    display: flex;
+}
+.gender-r {
+    margin-left: 20px;
+}
+
+.mail-area input {
+    width: 600px;
+}
+
+.tell-area {
+    display: flex;
+}
+.tell-area input {
+    width: 170px;
+}
+.tell-area span {
+    margin: 0 19px;
+    line-height: 40px;
+}
+.tell-area ::placeholder {
+    text-align: center;
+}
+
+.address-area input {
+    width: 600px;
+}
+.building-area input {
+    width: 600px;
+}
+.select-area select {
+    width: 350px;
+}
+.form__input--textarea textarea {
+    width: 600px;
+}
+
+.group-select {
+    margin-top: 40px;
+}
